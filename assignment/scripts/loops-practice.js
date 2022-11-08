@@ -61,7 +61,7 @@ while (i < arrayLength) {
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
-let numbers =(0,1,2,3,4,5)
+let numbers =[0,1,2,3,4,5]
 let i=0;
 let numlength = numbers.length
 while (i< numlength){
@@ -69,6 +69,14 @@ while (i< numlength){
   i++
   console.log(i)
 }
+console.log(num)
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let start = 10;
+let min = 5;
+
+while(start >= min){
+  console.log(start)
+  start--
+}
